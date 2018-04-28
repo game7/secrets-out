@@ -1,0 +1,20 @@
+{
+  "name": "secrets-out",
+  "version": "0.0.1",
+  "description": "secrets management for apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "secrets",
+    "passwords",
+    "encrypt"
+  ],
+  "author": "cmwoodal",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "node-cipher": "^6.3.2"
+  }
+}
