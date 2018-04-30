@@ -1,6 +1,10 @@
+#!/usr/bin/env node
+
 const cipher = require('node-cipher');
 const glob   = require('glob');
 const fs     = require('fs');
+
+const settings = require('../lib/settings')
 
 function encryptFile(name) {
     const input = name;
@@ -20,7 +24,7 @@ function encryptFile(name) {
     });
 }
 
-const patterns = ['**/*.config'];
+const patterns = settings.files;
 
 patterns.forEach(pattern => {
     glob(pattern, (err, matches) => {

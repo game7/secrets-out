@@ -2,9 +2,13 @@
   "name": "secrets-out",
   "version": "0.0.1",
   "description": "secrets management for apps",
-  "main": "index.js",
   "scripts": {
     "test": "test"
+  },
+  "bin": {
+    "secrets-encrypt": "./scripts/encrypt.js",
+    "secrets-decrypt": "./scripts/decrypt.js",
+    "secrets-generate": "./scripts/generate.js"
   },
   "keywords": [
     "secrets",

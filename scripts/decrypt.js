@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const glob   = require('glob');
 const cipher = require('node-cipher');
 
