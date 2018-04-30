@@ -1,6 +1,6 @@
 {
   "name": "secrets-out",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "secrets management for apps",
   "scripts": {
     "test": "test"
