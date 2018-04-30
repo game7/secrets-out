@@ -1,6 +1,6 @@
 # secrets-out
 
-![Seacrest Out!](\ryan_seacrest_415.jpg?raw=true "Seacrest Out!")
+![Seacrest Out!](ryan_seacrest_415.jpg?raw=true "Seacrest Out!")
 
 secrets-out is a command-line utility used to securely manage encrypted files and settings in your projects.  It allows you to commit encrypted information into a repository such as git/github so that it remain alongside the project's code base while also helping to ensure that the original unencrypted information is not exposed.
 
