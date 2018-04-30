@@ -1,0 +1,4 @@
+
+config/secrets.yml
+config/application.secrets.config
+secrets.key

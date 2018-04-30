@@ -1,0 +1,21 @@
+{
+  "name": "secrets-out-test",
+  "version": "0.0.1",
+  "description": "test package for Secrets Out",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "secrets-out": "file:../../secrets-out"
+  },
+  "secrets-out": {
+    "files": [
+      "config/secrets.yml",
+      "config/*secrets.config",
+      "*secrets.config"
+    ]
+  }
+}
