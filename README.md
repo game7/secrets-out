@@ -1,8 +1,13 @@
 # secrets-out
 
-![Seacrest Out!](ryan_seacrest_415.jpg?raw=true "Seacrest Out!")
+![Seacrest Out!](https://raw.githubusercontent.com/game7/secrets-out/master/ryan_seacrest_415.jpg?raw=true "Seacrest Out!")
 
 secrets-out is a command-line utility used to securely manage encrypted files and settings in your projects.  It allows you to commit encrypted information into a repository such as git/github so that it remain alongside the project's code base while also helping to ensure that the original unencrypted information is not exposed.
+
+Inspired by [Rails' Encrypted Secrets][1] and the [sekrets][2] gem.
+
+[1]: https://rubyinrails.com/2018/02/24/rails-5-1-encrypted-secrets-management-feature/
+[2]: https://github.com/ahoward/sekrets
 
 ## Getting Started
 
@@ -11,10 +16,8 @@ secrets-out is a command-line utility used to securely manage encrypted files an
 Requires Node.js and NPM
 
 ````
-> npm install -g git+https://github.com/game7/secrets-out.git
+> npm install -g secrets-out
 ````
-
-*todo - publish to NPM*
 
 ### Incorporating into your Project
 

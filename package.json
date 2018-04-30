@@ -16,12 +16,14 @@
     "passwords",
     "encrypt"
   ],
-  "author": "cmwoodal",
+  "author": "Chris Woodall",
+  "homepage": "https://github.com/game7/secrets-out",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",
     "figlet": "^1.2.0",
     "glob": "^7.1.2",
     "node-cipher": "^6.3.2"
-  }
+  },
+  "repository": "github:game7/secrets-out"
 }
