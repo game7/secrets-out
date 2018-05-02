@@ -1,6 +1,6 @@
 {
   "name": "secrets-out",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "secrets management for apps",
   "scripts": {
     "test": "test"
@@ -18,7 +18,7 @@
   ],
   "author": "Chris Woodall",
   "homepage": "https://github.com/game7/secrets-out",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
     "figlet": "^1.2.0",
