@@ -8,7 +8,6 @@ const cwd       = process.cwd();
 const filename  = 'secrets.key';
 const path      = cwd + '/' + filename;
 
-console.log('bomom!!!')
 
 shell(function() {
     const key = crypto.generate();    
