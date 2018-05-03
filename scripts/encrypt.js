@@ -2,7 +2,7 @@
 
 const shell     = require('../lib/shell');
 const gitignore = require('../lib/gitignore');
-const cipher    = require('node-cipher');
+const crypto    = require('../lib/crypto');
 const glob      = require('glob');
 const fs        = require('fs');
 const settings  = require('../lib/settings');
@@ -13,11 +13,9 @@ function encryptFile(name) {
     const input     = name;
     const output    = name + '.enc';
 
-    cipher.encryptSync({
-        input,
-        output,
-        password
-    });
+    const unencrypted = fs.readFileSync(input, 'utf8');
+    const encrypted = crypto.encrypt(unencrypted, password);
+    fs.writeFileSync(output, encrypted, 'utf8');
 
     console.log(`Encrypted '${input}' to '${output}'`);
 

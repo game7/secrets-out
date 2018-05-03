@@ -22,8 +22,7 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "figlet": "^1.2.0",
-    "glob": "^7.1.2",
-    "node-cipher": "^6.3.2"
+    "glob": "^7.1.2"
   },
   "repository": "github:game7/secrets-out"
 }
