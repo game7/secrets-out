@@ -14,7 +14,7 @@
   "secrets-out": {
     "files": [
       "config/secrets.yml",
-      "config/*secrets.config",
+      "config/*secrets.json",
       "*secrets.config"
     ]
   }
