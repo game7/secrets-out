@@ -59,5 +59,5 @@ Decrypting is just as simple.  Run the command `secrets-decrypt` and any matchin
 secrets-out requires a master key to encrypt and decrypt files.  This key can be provided to secrets-out using one of 3 different strategies
 
 1. A `secrets.key` file located in the project's root folder containing only the key (no line breaks or other characters). This is recommended for local development.
-2. A command-line argument using the pattern `secrets-encrypt your_master_key_here`.  This approach can be useful in transient environments such as build servers.
+2. A command-line argument using the pattern `secrets-encrypt key=your_master_key_here`.  This approach can be useful in transient environments such as build servers.
 3. An environment variable as designated by the `key` attribute in your secrets-out configuration.  For example, if we would like to use an environment variable named `SOME_MASTER_KEY` we simply update the project's `package.json` to include the attribute `"key": "SOME_MASTER_KEY"` and secrets-out will attempt to use this value to encrypt/decrypt.
